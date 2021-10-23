@@ -37,6 +37,7 @@ export interface FactoryProps {
   1?: string;
   4?: string;
   250: string;
+  43114: string;
 }
 
 export const FACTORY_ADDRESS : FactoryProps = {
