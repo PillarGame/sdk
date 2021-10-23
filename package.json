@@ -1,17 +1,21 @@
 {
-  "name": "@play2earn.monster/sdk",
+  "name": "@pillargame/sdk",
   "license": "MIT",
-  "version": "1.0.14",
-  "description": "An SDK for building applications on top of Play2earn Monster.",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "version": "1.0.0",
+  "description": "An SDK for building applications on top.",
+  "main": "index.js",
   "typings": "dist/cjs/index.d.ts",
   "sideEffects": false,
   "files": [
     "dist"
   ],
-  "repository": " https://github.com/PillarGame/sdk.git ",
-  "keywords": ["play2earn.monster"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PillarGame/sdk.git"
+  },
+  "keywords": [
+    "pillargame"
+  ],
   "scripts": {
     "lint": "tsdx lint src test",
     "lint:fix": "tsdx lint src test --fix",
@@ -22,6 +26,10 @@
     "test": "tsdx test",
     "prepublishOnly": "yarn build"
   },
+  "bugs": {
+    "url": "https://github.com/PillarGame/sdk/issues"
+  },
+  "homepage": "https://github.com/PillarGame/sdk#readme",
   "dependencies": {
     "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
